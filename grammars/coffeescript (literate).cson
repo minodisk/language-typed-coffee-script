@@ -1,4 +1,4 @@
-'comment': 'CoffeeScript (Literate)'
+'comment': 'TypedCoffeeScript (Literate)'
 'fileTypes': [
   'litcoffee'
   'litcoffee.erb'
@@ -6,7 +6,7 @@
 ]
 'foldingStartMarker': '(?x)\n\t\t(<(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)\\b.*?>\n\t\t|<!--(?!.*-->)\n\t\t|\\{\\s*($|\\?>\\s*$|//|/\\*(.*\\*/\\s*$|(?!.*?\\*/)))\n\t\t)'
 'foldingStopMarker': '(?x)\n\t\t(</(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)>\n\t\t|^\\s*-->\n\t\t|(^|\\s)\\}\n\t\t)'
-'name': 'CoffeeScript (Literate)'
+'name': 'TypedCoffeeScript (Literate)'
 'patterns': [
   {
     'begin': '(?x)^\n\t\t\t\t(?=\t([ ]{4}|\\t)(?!$))'
@@ -260,7 +260,7 @@
   'coffee_script':
     'patterns': [
       {
-        'include': 'source.coffee'
+        'include': 'source.tcoffee'
       }
     ]
   'escape':

@@ -1,6 +1,8 @@
-# CoffeeScript language support in Atom [![Build Status](https://travis-ci.org/atom/language-coffee-script.svg?branch=master)](https://travis-ci.org/atom/language-coffee-script)
+# TypedCoffeeScript language support in Atom [![Build Status](https://travis-ci.org/minodisk/language-typed-coffee-script.svg?branch=master)](https://travis-ci.org/minodisk/language-typed-coffee-script)
 
-Adds syntax highlighting and snippets to CoffeeScript files in Atom.
+This package is forked from [atom/language-coffee-script](https://github.com/atom/language-coffee-script).
+
+Adds syntax highlighting and snippets to TypedCoffeeScript files in Atom.
 
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
 from the [CoffeeScript TextMate bundle](https://github.com/jashkenas/coffee-script-tmbundle).

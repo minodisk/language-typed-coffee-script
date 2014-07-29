@@ -1,11 +1,8 @@
-'scopeName': 'source.coffee'
-'name': 'CoffeeScript'
+'scopeName': 'source.tcoffee'
+'name': 'TypedCoffeeScript'
 'fileTypes': [
-  'coffee'
-  'Cakefile'
-  'coffee.erb'
-  'cson'
-  '_coffee'
+  'tcoffee'
+  'typed.coffee'
 ]
 'firstLineMatch': '^#!.*\\bcoffee'
 'foldingStartMarker': '^\\s*class\\s+\\S.*$|.*(->|=>)\\s*$|.*[\\[{]\\s*$'
@@ -91,7 +88,7 @@
     'patterns': [
       {
         'match': '@\\w*'
-        'name': 'storage.type.annotation.coffeescript'
+        'name': 'storage.type.annotation.typedcoffeescript'
       }
     ]
   }
@@ -407,7 +404,7 @@
           '0':
             'name': 'punctuation.section.embedded.coffee'
         'end': '\\}'
-        'name': 'source.coffee.embedded.source'
+        'name': 'source.tcoffee.embedded.source'
         'patterns': [
           {
             'include': '$self'
